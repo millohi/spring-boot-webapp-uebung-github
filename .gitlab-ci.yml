@@ -1,7 +1,0 @@
-image: maven:latest
-stages:
- - build
- - deploy
-build:
- stage: build
-script: mvn verify
